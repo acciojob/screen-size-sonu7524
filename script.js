@@ -4,7 +4,7 @@ function getWindowSize() {
   const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
   // get the element with id "size" and update its text content with the current window size
-  document.getElementById("size").textContent = `Width: ${width} and Height: ${height}`;
+  document.getElementById("sizeInfo").textContent = `Width: ${width} and Height: ${height}`;
 }
 
 // add a resize event listener to the window object
